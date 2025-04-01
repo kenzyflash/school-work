@@ -21,7 +21,11 @@ So mainly I use the assets folder in order to store every picture and other docu
 You can simply browser using the following links:
 1. Gallery - https://kenzyflash.github.io/school-work/gallery.html
 2. About Us - https://kenzyflash.github.io/school-work/about-us.html
+
+<br>
 OR
+
+
 1. Clone the repository:
      ```bash
      git clone https://github.com/kenzyflash/school-work.git
