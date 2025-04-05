@@ -11,7 +11,7 @@
     <style>
         body{
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(#6457A6, #9DACFF);
+            background: linear-gradient(90deg, #6457A6, #9DACFF);
         }
 
         .center{
@@ -23,6 +23,7 @@
         
         .h1{
             font-size: 55px;
+            text-align: center;
         }
         .form{
             border: #5C2751 solid 2px;
@@ -35,12 +36,24 @@
             border-radius: 5px;
             align-items: center;
             margin: 5px;
+            border: none;
         }
-        .form-box-3{
+        /* .form-box-3{
             margin-left: 7px;
         }
         .form-box-5{
-            margin-left: 30px;
+            margin-left: 6px; 
+        } */
+        i{
+            margin-right: 10px;
+        }
+        #btn{
+            padding: 15px;
+            background-color: #9DACFF;
+            width: 100%;
+            border-radius: 10px;
+            text-decoration: none;
+            border: none;
         }
     </style>
 </head>
@@ -61,6 +74,7 @@
                 <input class="form-box form-box-4" type="email" placeholder="Email Address" required>
             </h3>
             <h3>
+                <i class="fa-solid fa-comment"></i>
                 <textarea class="form-box form-box-5" placeholder="Message..." required></textarea>
             </h3>
             <button type="submit" id="btn">Submit</button>
