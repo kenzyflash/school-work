@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ced12aa4e.js" crossorigin="anonymous"></script>
+    <title>An IFrame Embed</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #6457A6, #9DACFF);
+        }
+        .main {
+            display: flex;
+        }
+        .first {
+            align-items: center;
+            margin-left: 50px;
+        }
+        .second {
+            align-items: center;
+            margin-left: 50px;
+        }
+        .head {
+            width: 100%;
+            text-align: center;
+        }
+        h3 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Intro To HTML and CSS</h1>
+    </div>
+    <div class="main">
+        <div class="first">
+            <iframe width="600" height="500" src="https://www.youtube.com/embed/ok-plXXHlWw?rel=0" title="HTML in 100 Seconds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="second">
+            <iframe width="600" height="500" src="https://www.youtube.com/embed/OEV8gMkCHXQ&rel=0" title="CSS in 100 Seconds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="exp">
+        <h2 class="head">SubScripts and SuperScripts</h2>
+        <!-- <i class="fa-solid fa-glass-water"></i> -->
+        <h3>
+            <i class="fa-solid fa-glass-water"></i>
+            H<sub>2</sub>O
+        </h3>
+        <h3>
+            <i class="fa-solid fa-calculator"></i>
+            X<sup>2</sup> + Y<sup>2</sup> = 20
+        </h3>
+    </div>
+</body>
+</html>
